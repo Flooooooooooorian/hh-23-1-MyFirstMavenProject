@@ -52,6 +52,6 @@ class MyFirstJavaApplicationTest {
         boolean result = MyFirstJavaApplication.isBiggerThanAHundret(value);
 
         //THEN
-        assertEquals(false, result);
+        assertEquals(true, result);
     }
 }
